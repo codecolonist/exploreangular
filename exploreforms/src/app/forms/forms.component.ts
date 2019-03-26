@@ -22,11 +22,9 @@ export class FormsComponent implements OnInit {
     model=new credrepo('gulte','gulteud@gulte.com','gultepwd');
 
   addcred(){
-    this.model=new credrepo('','','');
     this.credrepoobj=this.model;
-    console.log(this.credrepoobj)
    this.credrepolist.push(this.credrepoobj);
-   
+  
    console.log(this.credrepolist);
 
   }
